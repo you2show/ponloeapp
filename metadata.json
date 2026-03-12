@@ -1,0 +1,8 @@
+{
+  "name": "Ponloe - Islamic Platform",
+  "description": "A comprehensive Islamic companion app featuring Quran with multiple reciters, prayer times, Qibla finder, and various Islamic tools, optimized for all devices.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
