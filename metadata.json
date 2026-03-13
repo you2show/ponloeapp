@@ -1,0 +1,8 @@
+{
+  "name": "Ponloe.org v6.7",
+  "description": "A comprehensive Quran companion app with multiple Arabic scripts (including Madinah v2), translations, tafsir, and AI-powered voice features.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}

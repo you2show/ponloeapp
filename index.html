@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Ponloe.app - Islamic Platform</title>
+    
+    <!-- PWA Settings -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Ponloe" />
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3655/3655580.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Primary Font: Google Sans (covers English & Khmer) -->
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet" crossorigin="anonymous">
+    
+    <!-- Arabic Font: Scheherazade New -->
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet" crossorigin="anonymous">
+    
+    <!-- Arabic Font: Amiri Quran (Google Fonts - Reliable fallback) -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&display=swap" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Arabic Fonts from previous.quran.com -->
+    <link rel="stylesheet" href="https://previous.quran.com/assets/font-faces-53ee9c16655c9a71103a9f52de58999781007b9ff2448972179ebb6d2db0bacb.css" crossorigin="anonymous">
+    
+    <!-- Hugeicons -->
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" crossorigin="anonymous" />
+
+    <style>
+      @font-face {
+        font-family: 'KFGQPC Uthman Taha Naskh';
+        src: url('/UthmanicHafs1Ver18.woff2') format('woff2'),
+             url('/UthmanicHafs1Ver18.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'p483-v2';
+        src: url('https://static.quran.com/fonts/quran/hafs/v2/ttf/p483.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      body {
+        font-family: 'Google Sans', 'Inter', sans-serif;
+        -webkit-tap-highlight-color: transparent;
+      }
+      /* Ensure Khmer text uses Google Sans */
+      .font-khmer { font-family: 'Google Sans', sans-serif; }
+      .font-khmer-title { font-family: 'Google Sans', sans-serif; }
+      
+      /* Hide scrollbar for cleaner mobile look */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-gray-900 dark:bg-slate-950 dark:text-white transition-colors duration-300">
+    <div id="root"></div>
+  <script type="module" src="/src/index.tsx"></script>
+</body>
+</html>
